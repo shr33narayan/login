@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body {
+    background: url("https://s-media-cache-ak0.pinimg.com/originals/dc/5e/34/dc5e3422930b5abe16d61e8d284a9c98.jpg");
+    /* background-size: cover; */
+    margin: 0;
+}
+
+.bar {
+    background: white;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 2em;
+    margin: 5em auto;
+    text-align: center;
+    border-radius: 25px;
+    position: relative;
+    top: 50px;
+    z-index: 3;
+}
+
+.bar input {
+    width: 250px;
+    length: 15px;
+    height: 20px;
+    padding-left: 30px;
+    border-radius: 25px;
+}
+
+#header2 {
+    color: white;
+    position: relative;
+    top: 3em;
+    left: 25em;
+}
+
+#header {
+    text-transform: uppercase;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    /* Green */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+#icon3 {
+    z-index: 2;
+    position: relative;
+    left: -128px;
+    top: 22px;
+}
+
+#icon2 {
+    z-index: 2;
+    position: relative;
+    left: -128px;
+    top: 134px;
+}
+
+.hero {
+    position: fixed;
+    z-index: 2;
+    background: rgba(10, 253, 245, 0.5);
+    width: 100%;
+    height: 100%;
+}
+    </style>
+
+</head>
+
+<body>
+    <div class="hero">
+        <h1 id="header2"><strong>GET STARTED</strong></h1>
+        <div class="bar">
+            <div id="icon2"><i class="fa fa-user-circle"></i></div>
+            <h1 id="header">Login</h1>
+            <br/>
+            <form>
+                <p>Enter the email</p>
+                <input type="email" placeholder="email">
+                <br/><br/>
+                <p>Enter the password</p>
+                <div id="icon3"><i class="fa fa-key"></i></div>
+
+                <input type="text" placeholder="password">
+                <br/><br/>
+                <button type="login">login</button>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
